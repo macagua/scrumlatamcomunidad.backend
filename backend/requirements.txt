@@ -1,0 +1,8 @@
+-c constraints.txt
+-e src/slc_sitioweb[test]
+
+zope.testrunner
+
+# Add required add-ons
+# (Ideally add them in setup.py for slc_sitioweb)
+# collective.easyform

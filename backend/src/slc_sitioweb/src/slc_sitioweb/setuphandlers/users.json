@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "leonardoc@plone.org",
+      "properties": {
+        "fullname": "SCRUM LATAM Comunidad Website",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "slc-sitioweb"
+    }
+  ],
+    "team": [
+  ]
+}
