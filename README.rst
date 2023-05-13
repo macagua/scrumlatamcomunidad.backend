@@ -43,17 +43,6 @@ Start the Frontend (http://localhost:3000/)
 
    make start-frontend
 
-Create site
-~~~~~~~~~~~
-
-Create a Plone site with default content strucutre, Open the ZMI at
-the Backend (http://localhost:8080/manage) delete the Plone default
-site and executing the following command:
-
-.. code:: shell
-
-   make create-site
-
 Help
 ~~~~
 
@@ -70,8 +59,10 @@ Structure
 This monorepo is composed by two distinct codebases: api and frontend.
 
 -  **backend**: API (Backend) Plone installation using ``pip`` (not
-   *buildout*). Includes a policy package named ``slc_sitioweb``
--  **frontend**: React (Volto) package named frontend
+   *buildout*). Includes a policy package named ``slc_sitioweb``. More
+   details information at `backend/src/slc_sitioweb/README.md <backend/src/slc_sitioweb/README.md>`_ file.
+-  **frontend**: React (Volto) package named frontend. More details
+   information at `frontend/README.md <frontend/README.md>`_ file.
 
 Reasoning
 ~~~~~~~~~

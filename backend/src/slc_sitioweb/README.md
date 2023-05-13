@@ -20,7 +20,11 @@ Install slc_sitioweb with `pip`:
 ```shell
 pip install slc_sitioweb
 ```
-And to create the Plone site:
+
+And to create the Plone site with default content structure, if exists
+the `Plone` site object delete it, opening the ZMI at the Backend
+(http://localhost:8080/manage) and next executing the following command:
+
 
 ```shell
 make create_site
