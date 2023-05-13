@@ -3,8 +3,7 @@ SCRUM LATAM Comunidad Website
 
 The `Scrum Latam Comunidad <https://www.scrumlatamcomunidad.com/>`_ Website repository.
 
-|Built with Cookiecutter Plone Starter| |Black code style| |Backend
-Tests| |Frontend Tests|
+|Built with Cookiecutter Plone Starter| |Black code style| |Backend Tests| |Frontend Tests|
 
 A new SCRUM LATAM Comunidad Website using Plone 6 and Volto
 technologies.
@@ -44,13 +43,34 @@ Start the Frontend (http://localhost:3000/)
 
    make start-frontend
 
+Create site
+~~~~~~~~~~~
+
+Create a Plone site with default content strucutre, Open the ZMI at
+the Backend (http://localhost:8080/manage) delete the Plone default
+site and executing the following command:
+
+.. code:: shell
+
+   make create-site
+
+Help
+~~~~
+
+For more details information about tasks available for command ``make``,
+executing the following command:
+
+.. code:: shell
+
+   make help
+
 Structure
 ---------
 
 This monorepo is composed by two distinct codebases: api and frontend.
 
--  **backend**: API (Backend) Plone installation using pip (not
-   buildout). Includes a policy package named slc_sitioweb
+-  **backend**: API (Backend) Plone installation using ``pip`` (not
+   *buildout*). Includes a policy package named ``slc_sitioweb``
 -  **frontend**: React (Volto) package named frontend
 
 Reasoning
@@ -59,7 +79,7 @@ Reasoning
 -  Repo contains all codebase needed to run the site (excluding existing
    addons for Plone and React).
 -  Github Workflows are triggered based on changes on each codebase (see
-   .github/workflows)
+   ``.github/workflows``)
 -  Easier to create Docker images for each codebase
 -  Showcase Plone installation/setup without buildout
 
