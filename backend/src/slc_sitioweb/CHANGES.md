@@ -3,4 +3,4 @@
 
 ## 1.0a1 (unreleased)
 
-- Initial version. [ScrumLATAMComunidad]
+- Initial version. [macagua]
