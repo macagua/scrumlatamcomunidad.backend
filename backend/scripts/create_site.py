@@ -43,7 +43,7 @@ newSecurityManager(None, admin)
 
 site_id = "Plone"
 payload = {
-    "title": "SCRUM LATAM Comunidad Website",
+    "title": "Sitio web de SCRUM LATAM Comunidad",
     "profile_id": _DEFAULT_PROFILE,
     "extension_ids": [
         "slc_sitioweb:default",

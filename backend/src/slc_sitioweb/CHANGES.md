@@ -3,6 +3,8 @@
 
 ## 1.0a1 (unreleased)
 
+- Updated the portal title value. [macagua]
+
 - Changed the portal timezone value. [macagua]
 
 - Updated ISiteSchema default value. [macagua]
