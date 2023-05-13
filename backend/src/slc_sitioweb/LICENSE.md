@@ -1,4 +1,4 @@
-slc_sitioweb Copyright 2022, Plone Foundatiuon
+slc_sitioweb Copyright 2023, SCRUM LATAM Comunidad
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2

@@ -3,4 +3,14 @@
 
 ## 1.0a1 (unreleased)
 
-- Initial version. [ScrumLATAMComunidad]
+- Updated the portal title value. [macagua]
+
+- Changed the portal timezone value. [macagua]
+
+- Updated ISiteSchema default value. [macagua]
+
+- Updated IMailSchema default values. [macagua]
+
+- Added initial contents structure. [macagua]
+
+- Initial version. [macagua]
