@@ -2,7 +2,7 @@
   "blocks": {
     "1006adfe-d9b1-4e70-9b32-a9158310723d": {
       "@type": "slate",
-      "plaintext": " Plone is an enterprise CMS built with Python.",
+      "plaintext": " Plone es un sistema de gestión de contenido escrito en lenguaje Python y actualmente se encuentra en la versión 6.0.4.",
       "value": [
         {
           "children": [
@@ -18,7 +18,7 @@
               "type": "b"
             },
             {
-              "text": " is an enterprise CMS built with "
+              "text": " es un sistema de gestión de contenido escrito en lenguaje "
             },
             {
               "children": [
@@ -32,7 +32,7 @@
               "type": "link"
             },
             {
-              "text": "."
+              "text": " y actualmente se encuentra en la versión 6.0.4."
             }
           ],
           "type": "p"
@@ -45,5 +45,5 @@
       "1006adfe-d9b1-4e70-9b32-a9158310723d"
     ]
   },
-  "title": "SCRUM LATAM Comunidad Website"
+  "title": "SCRUM LATAM Comunidad"
 }
