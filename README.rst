@@ -26,8 +26,10 @@ Install
 
    git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git
    cd slc-sitioweb
+   sudo apt install make python3-venv
+   npm install --global yarn
    make install
-
+   
 Start
 ~~~~~
 
