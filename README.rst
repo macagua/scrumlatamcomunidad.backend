@@ -29,7 +29,7 @@ Install
    sudo apt install make python3-venv
    npm install --global yarn
    make install
-   
+
 Start
 ~~~~~
 
