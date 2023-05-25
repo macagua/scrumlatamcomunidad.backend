@@ -3,8 +3,8 @@
     "_parent": "",
     "type": "Document",
     "id": "images",
-    "title": "Images",
-    "description": "Image bank.",
+    "title": "Imagenes",
+    "description": "Banco de imagenes.",
     "_transitions": [
       "publish"
     ],
@@ -16,11 +16,367 @@
   {
     "_parent": "images",
     "type": "Image",
+    "id": "scrumlatamcomunidad.png",
+    "title": "SCRUM LATAM Comunidad",
+    "description": "",
+    "_image": "images/scrumlatamcomunidad.png",
+    "_transitions": [],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "images",
+    "type": "Image",
     "id": "plone-foundation.png",
     "title": "Plone Foundation",
     "description": "",
     "_image": "images/plone-foundation.png",
     "_transitions": [],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "actividades",
+    "title": "Actividades",
+    "description": "Beneficios que tienen los miembros de la comunidad en toda latnoamerica.",
+    "blocks": {},
+    "blocks_layout": {},
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "actividades",
+    "type": "Document",
+    "id": "noticias",
+    "title": "Noticias",
+    "description": "Últimas noticias.",
+    "blocks": {
+      "157ccf90-0eb9-4dde-86ef-6797d4ae50ec": {
+        "@type": "listing",
+        "block": "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+        "query": [],
+        "querystring": {
+          "query": [
+            {
+              "i": "path",
+              "o": "plone.app.querystring.operation.string.absolutePath",
+              "v": "/noticias/"
+            },
+            {
+              "i": "portal_type",
+              "o": "plone.app.querystring.operation.selection.any",
+              "v": [
+                "News Item"
+              ]
+            }
+          ],
+          "sort_on": "effective",
+          "sort_order": "descending",
+          "sort_order_boolean": true
+        },
+        "variation": "summary"
+      },
+      "7c8aa7f9-e009-4972-828d-ee9934fc5f97": {
+        "@type": "title"
+      },
+      "c1f50c65-34e2-4d92-aad8-81995e23a6e3": {
+        "@type": "slate",
+        "plaintext": "",
+        "value": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      },
+      "ea385071-bdef-422a-9fdb-9f311f55519e": {
+        "@type": "slate",
+        "plaintext": "\u00daltimas noticias sobre el mundo de agilidad y sobre la comunidad SCRUM LATAM",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "\u00daltimas noticias sobre el mundo de agilidad y sobre la comunidad SCRUM LATAM"
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "7c8aa7f9-e009-4972-828d-ee9934fc5f97",
+        "ea385071-bdef-422a-9fdb-9f311f55519e",
+        "157ccf90-0eb9-4dde-86ef-6797d4ae50ec",
+        "c1f50c65-34e2-4d92-aad8-81995e23a6e3"
+      ]
+    },
+    "_transitions": [
+      "publish"
+    ],
+    "_allowed_types": [
+      "News Item"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "actividades",
+    "type": "Document",
+    "id": "eventos",
+    "title": "Eventos",
+    "description": "Eventos con participación de la comunidad latinoamericana.",
+    "blocks": {
+      "10e066a2-8ae7-47ce-bd54-fc99f8592ecd": {
+        "@type": "slate",
+        "plaintext": "Próximos Eventos",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "Próximos Eventos"
+              }
+            ],
+            "type": "h3"
+          }
+        ]
+      },
+      "41bb0298-f42a-4dab-a7d7-01ee0451b07d": {
+        "@type": "title"
+      },
+      "462758c7-ca8f-4ec8-9079-a2a6267f25a4": {
+        "@type": "slate",
+        "plaintext": "",
+        "value": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      },
+      "4b2a20ec-7243-4854-b665-5b3e73d98c9f": {
+        "@type": "listing",
+        "block": "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
+        "query": [],
+        "querystring": {
+          "query": [
+            {
+              "i": "path",
+              "o": "plone.app.querystring.operation.string.absolutePath",
+              "v": "/eventos/"
+            },
+            {
+              "i": "portal_type",
+              "o": "plone.app.querystring.operation.selection.any",
+              "v": [
+                "Event"
+              ]
+            },
+            {
+              "i": "end",
+              "o": "plone.app.querystring.operation.date.lessThan",
+              "v": ""
+            }
+          ],
+          "sort_on": "end",
+          "sort_order": "descending",
+          "sort_order_boolean": true
+        },
+        "variation": "default"
+      },
+      "665a07a2-b9d2-406d-9234-2c3f3e3bb56d": {
+        "@type": "slate",
+        "plaintext": "Eventos Anteriores",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "Eventos Anteriores"
+              }
+            ],
+            "type": "h3"
+          }
+        ]
+      },
+      "7388e081-9ee8-44d5-b6e8-970239010c6a": {
+        "@type": "listing",
+        "block": "7388e081-9ee8-44d5-b6e8-970239010c6a",
+        "query": [],
+        "querystring": {
+          "query": [
+            {
+              "i": "path",
+              "o": "plone.app.querystring.operation.string.absolutePath",
+              "v": "/eventos/"
+            },
+            {
+              "i": "portal_type",
+              "o": "plone.app.querystring.operation.selection.any",
+              "v": [
+                "Event"
+              ]
+            },
+            {
+              "i": "end",
+              "o": "plone.app.querystring.operation.date.afterToday",
+              "v": ""
+            }
+          ],
+          "sort_on": "end",
+          "sort_order": "ascending"
+        },
+        "variation": "default"
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "41bb0298-f42a-4dab-a7d7-01ee0451b07d",
+        "10e066a2-8ae7-47ce-bd54-fc99f8592ecd",
+        "7388e081-9ee8-44d5-b6e8-970239010c6a",
+        "665a07a2-b9d2-406d-9234-2c3f3e3bb56d",
+        "4b2a20ec-7243-4854-b665-5b3e73d98c9f",
+        "462758c7-ca8f-4ec8-9079-a2a6267f25a4"
+      ]
+    },
+    "_transitions": [
+      "publish"
+    ],
+    "_allowed_types": [
+      "Event"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "beneficios",
+    "title": "Beneficios",
+    "description": "Beneficios que tienen los miembros de la comunidad en toda latnoamerica.",
+    "blocks": {},
+    "blocks_layout": {},
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "beneficios",
+    "type": "Document",
+    "id": "webinars",
+    "title": "Webinars semanales",
+    "description": "Acceso a los Webinars semanales de la comunidad, dictado por especialistas de la insdutria en el mundo de la agilidad en toda latnoamerica.",
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "preguntas-frecuentes",
+    "title": "FAQs",
+    "description": "Preguntas Frecuentes sobre la comunidad",
+    "blocks": {},
+    "blocks_layout": {},
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "",
+    "type": "Document",
+    "id": "comunidad",
+    "title": "Comunidad",
+    "description": "La principal comunidad dedicada a todo lo referente al mundo de la agilidad en toda latnoamerica.",
+    "blocks": {
+      "645b107a-0fea-4c74-be16-6d9042fa8896": {
+        "@type": "title"
+      },
+      "b7452cfc-c6b0-4f1f-82b7-0de88412da50": {
+        "@type": "__grid",
+        "columns": [
+          {
+            "@type": "teaser",
+            "description": "La principal comunidad dedicada a todo lo referente al mundo de la agilidad en toda latnoamerica.",
+            "href": [
+              {
+                "@id": "/comunidad/scrumlatam",
+                "Description": "La principal comunidad dedicada a todo lo referente al mundo de la agilidad en toda latnoamerica.",
+                "Title": "SCRUM Latam",
+                "hasPreviewImage": false,
+                "head_title": null,
+                "image_field": "",
+                "title": "SCRUM Latam"
+              }
+            ],
+            "id": "ed0fa532-7403-46ae-adbf-371e6d92f6e4",
+            "preview_image": [
+              {
+                "@id": "/images/scrumlatamcomunidad.png"
+              }
+            ],
+            "title": "SCRUM Latam"
+          }
+        ]
+      },
+      "ef647394-a069-438f-88c5-73bd3a992b2f": {
+        "@type": "slate",
+        "plaintext": "",
+        "value": [
+          {
+            "children": [
+              {
+                "text": ""
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "645b107a-0fea-4c74-be16-6d9042fa8896",
+        "b7452cfc-c6b0-4f1f-82b7-0de88412da50",
+        "ef647394-a069-438f-88c5-73bd3a992b2f"
+      ]
+    },
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "comunidad",
+    "type": "Document",
+    "id": "quienes-somos",
+    "title": "¿Quiénes somos?",
+    "description": "La principal comunidad dedicada a todo lo referente al mundo de la agilidad en toda latnoamerica.",
+    "_transitions": [
+      "publish"
+    ],
+    "exclude_from_nav": false
+  },
+  {
+    "_parent": "comunidad",
+    "type": "Document",
+    "id": "nuestros-squads",
+    "title": "Nuestros Squads",
+    "description": "La comunidad tiene cuatro (04) Squads principales en su funcionamiento medular.",
+    "_transitions": [
+      "publish"
+    ],
     "exclude_from_nav": false
   }
 ]

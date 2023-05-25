@@ -1,17 +1,18 @@
 {
   "portal": [
     {
-      "email": "leonardoc@plone.org",
+      "email": "scrums.latam@gmail.com",
       "properties": {
-        "fullname": "SCRUM LATAM Comunidad Website",
-        "location": "World"
+        "fullname": "SCRUM LATAM Comunidad",
+        "location": "Colombia"
       },
       "groups": [
       ],
       "roles": [
-        "Member"
+        "Member",
+        "Site Administrator"
       ],
-      "username": "slc-sitioweb"
+      "username": "scrumslatam"
     }
   ],
     "team": [

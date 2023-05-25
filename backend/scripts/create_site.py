@@ -43,7 +43,7 @@ newSecurityManager(None, admin)
 
 site_id = "Plone"
 payload = {
-    "title": "SCRUM LATAM Comunidad Website",
+    "title": "Sitio web de SCRUM LATAM Comunidad",
     "profile_id": _DEFAULT_PROFILE,
     "extension_ids": [
         "slc_sitioweb:default",
@@ -51,7 +51,7 @@ payload = {
     ],
     "setup_content": False,
     "default_language": "es",
-    "portal_timezone": "America/Sao_Paulo",
+    "portal_timezone": "America/Bogota",
 }
 
 if site_id in app.objectIds() and DELETE_EXISTING:

@@ -1,3 +1,3 @@
 # Contributors
 
-- ScrumLATAMComunidad [leonardoc@plone.org]
+- Leonardo J. Caballero G. [leonardoc@plone.org]

@@ -4,6 +4,7 @@
            prefix="plone"
            purge="false"
   >
-    <value key="email_from_name">SCRUM LATAM Comunidad Website</value>
+    <value key="email_from_name">[Sitio Web] SCRUM LATAM Comunidad</value>
+    <value key="email_from_address">scrums.latam+web@gmail.com</value>
   </records>
 </registry>
