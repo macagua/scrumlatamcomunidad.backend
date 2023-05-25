@@ -49,6 +49,7 @@ setup(
         "Plone",
         "prettyconf",
         "plone.api",
+        "pas.plugins.authomatic>=1.0b2",
     ],
     extras_require={
         "test": [
