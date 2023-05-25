@@ -6,3 +6,4 @@ zope.testrunner
 # Add required add-ons
 # (Ideally add them in setup.py for slc_sitioweb)
 # collective.easyform
+pas.plugins.authomatic @ git+https://github.com/collective/pas.plugins.authomatic@main
