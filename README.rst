@@ -131,7 +131,7 @@ This monorepo is composed by two distinct codebases: api and frontend.
    details information at `backend/src/slc_sitioweb/README.md <backend/src/slc_sitioweb/README.md>`_ file.
 
 -  **devops**: Devops Deployments scripts por this monorepo. More details
-   information at `devops/README.md <frontend/README.md>`_ file.
+   information at `devops/README.md <devops/README.md>`_ file.
 
 -  **frontend**: React (Volto) package named frontend. More details
    information at `frontend/README.md <frontend/README.md>`_ file.
