@@ -31,12 +31,15 @@ Install the requirements dependencies:
    sudo apt install build-essential python3-dev python3-venv git tree curl
 
 
-Install `Node Version Manager - NVM <https://github.com/nvm-sh/nvm/blob/master/README.md>`_:
+Download and install `Node Version Manager - NVM <https://github.com/nvm-sh/nvm/blob/master/README.md>`_,
+executing the following command:
 
 .. code:: shell
 
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
+
+Setting the ``nvm`` script into console environments to use it, executing the following command:
 
 .. code:: shell
 
@@ -44,16 +47,27 @@ Install `Node Version Manager - NVM <https://github.com/nvm-sh/nvm/blob/master/R
       [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 
+To reflect the ``nvm`` script changes in the terminal environments to use it, executing the following command:
+
 .. code:: shell
 
    source ~/.bashrc && exit
 
+Launch the terminal again and continues with execute the next commands.
 
-Install Node 16 Version:
+Install `Node 16 Version <https://nodejs.org/en/blog/release/v16.16.0>`_:
+
+
+Download and install Node 16 Version, executing the following command:
 
 .. code:: shell
 
    nvm install 16
+
+Enable the Node 16 Version to use it, executing the following command:
+
+.. code:: shell
+
    nvm use 16
 
 
@@ -95,6 +109,7 @@ Start the Frontend (http://localhost:3000/)
 
    make start-frontend
 
+
 Help
 ~~~~
 
@@ -105,6 +120,7 @@ executing the following command:
 
    make help
 
+
 Structure
 ---------
 
@@ -113,20 +129,27 @@ This monorepo is composed by two distinct codebases: api and frontend.
 -  **backend**: API (Backend) Plone installation using ``pip`` (not
    *buildout*). Includes a policy package named ``slc_sitioweb``. More
    details information at `backend/src/slc_sitioweb/README.md <backend/src/slc_sitioweb/README.md>`_ file.
+
 -  **devops**: Devops Deployments scripts por this monorepo. More details
    information at `devops/README.md <frontend/README.md>`_ file.
+
 -  **frontend**: React (Volto) package named frontend. More details
    information at `frontend/README.md <frontend/README.md>`_ file.
+
 
 Reasoning
 ~~~~~~~~~
 
 -  Repo contains all codebase needed to run the site (excluding existing
    addons for Plone and React).
+
 -  Github Workflows are triggered based on changes on each codebase (see
    ``.github/workflows``)
+
 -  Easier to create Docker images for each codebase
+
 -  Showcase Plone installation/setup without buildout
+
 
 Linters and Formatting
 ----------------------
@@ -139,6 +162,7 @@ automatically format them, you can run
 in the root folder or specifically in each backend or frontend folders.
 
 Linters commands are available in each backend and frontend folder.
+
 
 Acceptance tests
 ----------------
@@ -156,6 +180,7 @@ tests, if the backend code has changed.
 Fixture in dev mode
 
 ``test-acceptance``: Start Core Cypress Acceptance Tests in dev mode
+
 
 Credits
 -------
