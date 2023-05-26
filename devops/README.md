@@ -20,11 +20,22 @@ Also, add a `prod.yml` file to `inventory` folder (with information about the pr
 
 ### Install Ansible
 
-Install Python 3 virtual environment and Ansible
+Access to ``devops`` directory, executing the following command:
 
 ```shell
 cd devops
+```
+
+For remove all build, test, coverage and Python artifacts, executing the following command:
+
+```shell
 make clean
+```
+
+For create Python 3 virtual environment and install [Ansible](https://www.ansible.com/) via ``pip`` tool,
+executing the following command:
+
+```shell
 make setup
 ```
 
