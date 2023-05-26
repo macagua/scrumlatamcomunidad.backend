@@ -24,7 +24,7 @@ Development Setup
 Install
 ~~~~~~~
 
-Install the requirements dependencies:
+Install the requirements dependencies, executing the following command:
 
 .. code:: shell
 
@@ -71,21 +71,21 @@ Enable the Node 16 Version to use it, executing the following command:
    nvm use 16
 
 
-Install `yarn <https://yarnpkg.com/>`_ tool:
+Install `yarn <https://yarnpkg.com/>`_ tool, executing the following command:
 
 .. code:: shell
 
    npm install --global yarn
 
 
-Clone and install the git repository:
+Clone and install the git repository, executing the following command:
 
 .. code:: shell
 
    git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git slc-sitioweb && cd $_
 
 
-Install the dev stack:
+Install the dev stack, executing the following command:
 
 .. code:: shell
 
