@@ -8,6 +8,7 @@ The `Scrum Latam Comunidad <https://www.scrumlatamcomunidad.com/>`_ Website repo
 A new SCRUM LATAM Comunidad Website using Plone 6 and Volto
 technologies.
 
+
 Quick start
 -----------
 
@@ -19,19 +20,61 @@ Development Setup
 -  yarn
 -  Docker
 
+
 Install
 ~~~~~~~
 
+Install the requirements dependencies:
+
 .. code:: shell
 
-   git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git
-   cd slc-sitioweb
-   sudo apt install make python3-venv
+   sudo apt install build-essential python3-dev python3-venv git tree curl
+
+
+Install `Node Version Manager - NVM <https://github.com/nvm-sh/nvm/blob/master/README.md>`_:
+
+.. code:: shell
+
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+   export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" \
+      [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+   source ~/.bashrc
+   exit
+
+
+Install Node 16 Version:
+
+.. code:: shell
+
+   nvm install 16
+   nvm use 16
+
+
+Install `yarn <https://yarnpkg.com/>`_ tool:
+
+.. code:: shell
+
    npm install --global yarn
+
+
+Clone and install the git repository:
+
+.. code:: shell
+
+   git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git slc-sitioweb && cd $_
+
+
+Install the dev stack:
+
+.. code:: shell
+
    make install
+
 
 Start
 ~~~~~
+
+Open two consoles to run each of the following commands in each of them:
 
 Start the Backend (http://localhost:8080/)
 
@@ -63,6 +106,8 @@ This monorepo is composed by two distinct codebases: api and frontend.
 -  **backend**: API (Backend) Plone installation using ``pip`` (not
    *buildout*). Includes a policy package named ``slc_sitioweb``. More
    details information at `backend/src/slc_sitioweb/README.md <backend/src/slc_sitioweb/README.md>`_ file.
+-  **devops**: Devops Deployments scripts por this monorepo. More details
+   information at `devops/README.md <frontend/README.md>`_ file.
 -  **frontend**: React (Volto) package named frontend. More details
    information at `frontend/README.md <frontend/README.md>`_ file.
 
@@ -84,7 +129,7 @@ automatically format them, you can run
 
 ``make format``
 
-in the root folder or especifically in each backend or frontend folders.
+in the root folder or specifically in each backend or frontend folders.
 
 Linters commands are available in each backend and frontend folder.
 

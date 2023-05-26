@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 1.0a1 (unreleased)
+## 1.0.0a1 (unreleased)
 
 - Added the authomatic support via pas.plugins.authomatic addon for backend and volto-authomatic addon for frontend [macagua]
 
