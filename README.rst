@@ -8,6 +8,7 @@ The `Scrum Latam Comunidad <https://www.scrumlatamcomunidad.com/>`_ Website repo
 A new SCRUM LATAM Comunidad Website using Plone 6 and Volto
 technologies.
 
+
 Quick start
 -----------
 
@@ -19,19 +20,82 @@ Development Setup
 -  yarn
 -  Docker
 
+
 Install
 ~~~~~~~
 
+Install the requirements dependencies, executing the following command:
+
 .. code:: shell
 
-   git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git
-   cd slc-sitioweb
-   sudo apt install make python3-venv
+   sudo apt install build-essential python3-dev python3-venv git tree curl
+
+
+Download and install `Node Version Manager - NVM <https://github.com/nvm-sh/nvm/blob/master/README.md>`_,
+executing the following command:
+
+.. code:: shell
+
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+
+Setting the ``nvm`` script into console environments to use it, executing the following command:
+
+.. code:: shell
+
+   export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")" \
+      [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+
+To reflect the ``nvm`` script changes in the terminal environments to use it, executing the following command:
+
+.. code:: shell
+
+   source ~/.bashrc && exit
+
+Launch the terminal again and continues with execute the next commands.
+
+Install `Node 16 Version <https://nodejs.org/en/blog/release/v16.16.0>`_:
+
+
+Download and install Node 16 Version, executing the following command:
+
+.. code:: shell
+
+   nvm install 16
+
+Enable the Node 16 Version to use it, executing the following command:
+
+.. code:: shell
+
+   nvm use 16
+
+
+Install `yarn <https://yarnpkg.com/>`_ tool, executing the following command:
+
+.. code:: shell
+
    npm install --global yarn
+
+
+Clone and install the git repository, executing the following command:
+
+.. code:: shell
+
+   git clone git@github.com:ScrumLATAMComunidad/slc-sitioweb.git slc-sitioweb && cd $_
+
+
+Install the dev stack, executing the following command:
+
+.. code:: shell
+
    make install
+
 
 Start
 ~~~~~
+
+Open two consoles to run each of the following commands in each of them:
 
 Start the Backend (http://localhost:8080/)
 
@@ -45,6 +109,7 @@ Start the Frontend (http://localhost:3000/)
 
    make start-frontend
 
+
 Help
 ~~~~
 
@@ -55,6 +120,7 @@ executing the following command:
 
    make help
 
+
 Structure
 ---------
 
@@ -63,18 +129,27 @@ This monorepo is composed by two distinct codebases: api and frontend.
 -  **backend**: API (Backend) Plone installation using ``pip`` (not
    *buildout*). Includes a policy package named ``slc_sitioweb``. More
    details information at `backend/src/slc_sitioweb/README.md <backend/src/slc_sitioweb/README.md>`_ file.
+
+-  **devops**: Devops Deployments scripts por this monorepo. More details
+   information at `devops/README.md <devops/README.md>`_ file.
+
 -  **frontend**: React (Volto) package named frontend. More details
    information at `frontend/README.md <frontend/README.md>`_ file.
+
 
 Reasoning
 ~~~~~~~~~
 
 -  Repo contains all codebase needed to run the site (excluding existing
    addons for Plone and React).
+
 -  Github Workflows are triggered based on changes on each codebase (see
    ``.github/workflows``)
+
 -  Easier to create Docker images for each codebase
+
 -  Showcase Plone installation/setup without buildout
+
 
 Linters and Formatting
 ----------------------
@@ -84,9 +159,10 @@ automatically format them, you can run
 
 ``make format``
 
-in the root folder or especifically in each backend or frontend folders.
+in the root folder or specifically in each backend or frontend folders.
 
 Linters commands are available in each backend and frontend folder.
+
 
 Acceptance tests
 ----------------
@@ -104,6 +180,7 @@ tests, if the backend code has changed.
 Fixture in dev mode
 
 ``test-acceptance``: Start Core Cypress Acceptance Tests in dev mode
+
 
 Credits
 -------

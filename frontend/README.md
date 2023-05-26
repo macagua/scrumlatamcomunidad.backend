@@ -1,6 +1,6 @@
 ## Documentation
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+A training on how to create your own website using Volto is available as part of the Plone training at [https://2022.training.plone.org/volto/index.html](https://2022.training.plone.org/volto/index.html).
 
 ## Quick Start
 
@@ -61,7 +61,7 @@ yarn add -W mrs-developer
 
 ## Acceptance tests
 
-In order to run localy (while developing) the project acceptance tests (Cypress), there are some `Makefile` commands in place (in the repo root). Run them in order:
+In order to run locally (while developing) the project acceptance tests (Cypress), there are some `Makefile` commands in place (in the repo root). Run them in order:
 
 `start-test-acceptance-server`: Start server fixture in docker (previous build required)
 

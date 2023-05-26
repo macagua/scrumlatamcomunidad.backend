@@ -20,6 +20,8 @@
   <include file="permissions.zcml" />
   <include file="profiles.zcml" />
 
+  <!-- -*- extra stuff goes here -*- -->
+
   <include package=".indexers" />
   <include package=".vocabularies" />
   <include package=".behaviors" />
