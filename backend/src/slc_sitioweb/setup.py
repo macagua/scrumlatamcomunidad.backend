@@ -32,10 +32,10 @@ setup(
     keywords="Python Plone CMS",
     author="Leonardo J. Caballero G.",
     author_email="leonardoc@plone.org",
-    url="https://github.com/ScrumLATAMComunidad/slc-sitioweb",
+    url="https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com",
     project_urls={
         "PyPI": "https://pypi.python.org/pypi/slc_sitioweb",
-        "Source": "https://github.com/ScrumLATAMComunidad/slc-sitioweb",
+        "Source": "https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com",
         "Tracker": "https://github.com/ScrumLATAMComunidad/slc-sitioweb/issues",
     },
     license="GPL version 2",
