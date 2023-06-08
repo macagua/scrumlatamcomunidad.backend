@@ -32,6 +32,28 @@
       ]
     },
     {
+      "login": "humbertohansen",
+      "name": "Humberto R Hansen.",
+      "avatar_url": "https://instagram.fmrd1-1.fna.fbcdn.net/v/t51.2885-19/17881639_747899672054176_4890925133947994112_n.jpg?_nc_ht=instagram.fmrd1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=39h9kCktnDIAX_oAKBZ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDTMYuHMKnHrbd5GZckyn9aSBLLYLyafRJmzhP9ad1wTA&oe=648657F2&_nc_sid=f70a57",
+      "profile": "https://www.linkedin.com/in/humberto-hansen-92b73352/",
+      "contributions": [
+        "fundingFinding",
+        "bug",
+        "maintenance",
+        "infra",
+        "security",
+        "doc",
+        "tool",
+        "question",
+        "design",
+        "translation",
+        "code",
+        "userTesting",
+        "review",
+        "ideas"
+      ]
+    },
+    {
       "login": "alfadestroyer",
       "name": "Manuel Matos",
       "avatar_url": "https://avatars.githubusercontent.com/u/132786011?v=4",
