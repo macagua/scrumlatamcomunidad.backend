@@ -1,0 +1,159 @@
+{
+  "projectName": "scrumlatamcomunidad.com",
+  "projectOwner": "macagua",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 75,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "macagua",
+      "name": "Leonardo J. Caballero G.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185395?v=4",
+      "profile": "https://www.linkedin.com/in/leonardojcaballerog",
+      "contributions": [
+        "bug",
+        "maintenance",
+        "infra",
+        "doc",
+        "tool",
+        "security",
+        "question",
+        "translation",
+        "code",
+        "test",
+        "userTesting",
+        "projectManagement",
+        "review",
+        "ideas"
+      ]
+    },
+    {
+      "login": "humbertohansen",
+      "name": "Humberto R Hansen.",
+      "avatar_url": "https://instagram.fmrd1-1.fna.fbcdn.net/v/t51.2885-19/17881639_747899672054176_4890925133947994112_n.jpg?_nc_ht=instagram.fmrd1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=39h9kCktnDIAX_oAKBZ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDTMYuHMKnHrbd5GZckyn9aSBLLYLyafRJmzhP9ad1wTA&oe=648657F2&_nc_sid=f70a57",
+      "profile": "https://www.linkedin.com/in/humberto-hansen-92b73352/",
+      "contributions": [
+        "fundingFinding",
+        "bug",
+        "maintenance",
+        "infra",
+        "security",
+        "doc",
+        "tool",
+        "question",
+        "design",
+        "translation",
+        "code",
+        "userTesting",
+        "review",
+        "ideas"
+      ]
+    },
+    {
+      "login": "alfadestroyer",
+      "name": "Manuel Matos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132786011?v=4",
+      "profile": "https://github.com/alfadestroyer",
+      "contributions": [
+        "bug",
+        "design",
+        "translation",
+        "code",
+        "test",
+        "userTesting"
+      ]
+    },
+    {
+      "login": "JuanLP06",
+      "name": "Juan Lopez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10691487?v=4",
+      "profile": "https://github.com/JuanLP06",
+      "contributions": [
+        "bug",
+        "design",
+        "code",
+        "translation",
+        "userTesting"
+      ]
+    },
+    {
+      "login": "scrumlatam",
+      "name": "Ruben Dario Romero Chica",
+      "avatar_url": "https://media.licdn.com/dms/image/C5603AQHOpNxUXFK-yA/profile-displayphoto-shrink_200_200/0/1653180804515?e=1691625600&v=beta&t=DDPNuBaemfeB9PNvs7qVAN3ogoG7uSEu6JS2bh_6DGI",
+      "profile": "https://www.linkedin.com/in/ruben-dario-romero-chica-47906837/",
+      "contributions": [
+        "business",
+        "mentoring",
+        "eventOrganizing",
+        "fundingFinding",
+        "bug",
+        "doc",
+        "content",
+        "question",
+        "projectManagement",
+        "ideas"
+      ]
+    },
+    {
+      "login": "emicmiranda",
+      "name": "Emilia Miranda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133285771?v=4",
+      "profile": "https://www.linkedin.com/in/emilia-miranda-76242020/",
+      "contributions": [
+        "bug",
+        "doc",
+        "content",
+        "question",
+        "projectManagement",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Hiomara",
+      "name": "Vanessa Apaza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133286537?v=4",
+      "profile": "https://www.linkedin.com/in/hiomara-apaza/",
+      "contributions": [
+        "bug",
+        "doc",
+        "content",
+        "question",
+        "projectManagement",
+        "ideas"
+      ]
+    },
+    {
+      "login": "lmartel0911",
+      "name": "Lizbeth Martel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5699145?v=4",
+      "profile": "https://www.linkedin.com/in/lizbethmartelsalguero/",
+      "contributions": [
+        "bug",
+        "doc",
+        "content",
+        "question",
+        "projectManagement",
+        "ideas"
+      ]
+    },
+    {
+      "login": "ennyin",
+      "name": "Enny Infante",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5699145?v=4",
+      "profile": "https://www.linkedin.com/in/enny-infante-guevara-20585084/",
+      "contributions": [
+        "bug",
+        "doc",
+        "content",
+        "question",
+        "projectManagement",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 6
+}
