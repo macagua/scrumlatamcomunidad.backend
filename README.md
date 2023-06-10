@@ -3,6 +3,8 @@
 The [Scrum Latam Comunidad](https://www.scrumlatamcomunidad.com/)
 Website repository.
 
+[Spanish](README_es.md)
+
 [![Built with Cookiecutter Plone Starter](https://img.shields.io/badge/built%20with-Cookiecutter%20Plone%20Starter-0083be.svg?logo=cookiecutter)](https://github.com/collective/cookiecutter-plone-starter/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![Backend Tests](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/backend.yml/badge.svg)](https://github.com/ScrumLATAMComunidad/scrumlatamcomunidad.com/actions/workflows/backend.yml)
@@ -10,12 +12,12 @@ Website repository.
 [![All Contributors](https://img.shields.io/github/all-contributors/ScrumLATAMComunidad/scrumlatamcomunidad.com?color=ee8449&style=flat-square)](#contributors)
 
 
-A new SCRUM LATAM Comunidad Website using Plone 6 and Volto
+The new SCRUM LATAM Comunidad Website using Plone 6 and Volto
 technologies.
 
 ## Quick start
 
-### Development Setup
+### Development Stack
 
 -   Python 3.9, 3.10, 3.11
 -   Node 16
