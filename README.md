@@ -165,6 +165,10 @@ Fixture in dev mode
 
 `test-acceptance`: Start Core Cypress Acceptance Tests in dev mode
 
+## Analytics summary
+
+![Alt](https://repobeats.axiom.co/api/embed/af3ecafec830363436b35fc00afdb198a0821001.svg "Repobeats analytics image")
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
