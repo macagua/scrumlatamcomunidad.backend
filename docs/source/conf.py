@@ -28,6 +28,7 @@ author = 'Leonardo J. Caballero G., Manuel Matos, Juan Lopez'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.plantuml',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
