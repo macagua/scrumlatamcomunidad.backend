@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sitio Web Policy Package'
+project = 'Políticas del Sitio Web'
 copyright = '2023, Leonardo J. Caballero G., Manuel Matos, Juan Lopez'
 author = 'Leonardo J. Caballero G., Manuel Matos, Juan Lopez'
 

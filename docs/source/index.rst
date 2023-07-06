@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-¡Documentación del Paquete de Políticas del Sitio Web!
-======================================================
+¡Documentación de las Políticas del Sitio Web!
+==============================================
 
 .. toctree::
    :maxdepth: 2
