@@ -5,12 +5,12 @@ Backend
 UML - Diagrama de Clases
 ========================
 
-.. plantuml:: ./patrocinante.uml
+.. plantuml:: ./patrocinante.puml
     :caption: Patrocinante
     :align: center
 
 ---
 
-.. plantuml:: ./miembro.uml
+.. plantuml:: ./miembro.puml
     :caption: Miembro
     :align: center
