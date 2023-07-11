@@ -1,0 +1,10 @@
+@startuml
+class Miembro{
+  +nombre: str
+  +apellido: str
+  #correo : str
+  +username: str
+  #telefono: int
+  +pais: str
+}
+@enduml
