@@ -28,8 +28,7 @@
     "@eeacms/volto-accordion-block",
     "@kitconcept/volto-blocks-grid",
     "@kitconcept/volto-slider-block",
-    "@eeacms/volto-matomo",
-    "volto-authomatic"
+    "@eeacms/volto-matomo"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -144,8 +143,7 @@
     "@eeacms/volto-matomo": "*",
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-slider-block": "*",
-    "@plone/volto": "16.20.4",
-    "volto-authomatic": "github:collective/volto-authomatic#main"
+    "@plone/volto": "16.20.4"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.5",
