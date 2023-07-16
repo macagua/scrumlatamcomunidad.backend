@@ -24,10 +24,10 @@
         title="Upgrade Plone"
         handler=".upgrade_plone"
         />
-    <genericsetup:upgradeStep
+    <!-- <genericsetup:upgradeStep
         title="Upgrade pas.plugins.authomatic"
         handler=".upgrade_pas_plugins_authomatic"
-        />
+        /> -->
   </genericsetup:upgradeSteps>
 
 

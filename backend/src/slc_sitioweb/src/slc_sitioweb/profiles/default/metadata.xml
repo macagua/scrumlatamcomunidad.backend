@@ -3,6 +3,6 @@
   <version>20230511001</version>
   <dependencies>
     <dependency>profile-plone.volto:default</dependency>
-    <dependency>profile-pas.plugins.authomatic:default</dependency>
+    <!-- <dependency>profile-pas.plugins.authomatic:default</dependency> -->
   </dependencies>
 </metadata>
