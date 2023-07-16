@@ -28,6 +28,7 @@
     "@eeacms/volto-accordion-block",
     "@kitconcept/volto-blocks-grid",
     "@kitconcept/volto-slider-block",
+    "@kitconcept/volto-social-blocks",
     "@eeacms/volto-matomo"
   ],
   "jest": {
@@ -143,6 +144,7 @@
     "@eeacms/volto-matomo": "*",
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-slider-block": "*",
+    "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
     "@plone/volto": "16.20.4"
   },
   "devDependencies": {
