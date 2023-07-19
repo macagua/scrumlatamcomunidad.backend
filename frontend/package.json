@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "description": "A new SCRUM LATAM Comunidad Website using Plone 6 and Volto technologies.",
+  "description": "A new SCRUM LATAM Comunidad Web portal using Plone 6 and Volto technologies.",
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
