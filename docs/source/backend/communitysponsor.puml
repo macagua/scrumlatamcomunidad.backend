@@ -1,0 +1,11 @@
+@startuml
+class CommunitySponsor {
+   +name : String
+   +information : String
+   +logo_photo : File
+   +type : String
+   +website : String
+   #email : String
+   #phone : Integer
+}
+@enduml
