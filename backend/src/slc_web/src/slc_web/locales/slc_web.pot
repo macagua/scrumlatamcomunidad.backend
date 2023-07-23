@@ -1,3 +1,6 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -12,84 +15,84 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: DOMAIN\n"
+"Domain: slc_web\n"
 
-#: slc_web/profiles/default/types/CommunitySponsor.xml
+#: slc_web/src/slc_web/profiles/default/types/CommunitySponsor.xml
 msgid "A Community Sponsor"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:9
+#: slc_web/src/slc_web/vocabularies/__init__.py:9
 msgid "Agriculture"
 msgstr ""
 
-#: slc_web/profiles/default/types/CommunitySponsor.xml
+#: slc_web/src/slc_web/profiles/default/types/CommunitySponsor.xml
 msgid "Community Sponsor"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:14
+#: slc_web/src/slc_web/vocabularies/__init__.py:14
 msgid "Education"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:10
+#: slc_web/src/slc_web/vocabularies/__init__.py:10
 msgid "Government"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:15
+#: slc_web/src/slc_web/vocabularies/__init__.py:15
 msgid "Information Services"
 msgstr ""
 
-#: slc_web/profiles.zcml:22
+#: slc_web/src/slc_web/profiles.zcml:22
 msgid "Initial content for our website."
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:12
+#: slc_web/src/slc_web/vocabularies/__init__.py:12
 msgid "Manufacturing and construction"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:16
+#: slc_web/src/slc_web/vocabularies/__init__.py:16
 msgid "NGO"
 msgstr ""
 
-#: slc_web/validators.py:107
+#: slc_web/src/slc_web/validators.py:107
 msgid "Phone number contains bad characters"
 msgstr ""
 
-#: slc_web/validators.py:110
+#: slc_web/src/slc_web/validators.py:110
 msgid "Phone number is too short"
 msgstr ""
 
-#: slc_web/profiles.zcml:13
+#: slc_web/src/slc_web/profiles.zcml:13
 msgid "Policy package to install our site"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:11
+#: slc_web/src/slc_web/vocabularies/__init__.py:11
 msgid "Raw materials"
 msgstr ""
 
-#: slc_web/profiles.zcml:22
+#: slc_web/src/slc_web/profiles.zcml:22
 msgid "SCRUM LATAM Comunidad Web portal: Initial content"
 msgstr ""
 
-#: slc_web/profiles.zcml:13
+#: slc_web/src/slc_web/profiles.zcml:13
 msgid "SCRUM LATAM Comunidad Web portal: Install"
 msgstr ""
 
-#: slc_web/profiles.zcml:30
+#: slc_web/src/slc_web/profiles.zcml:30
 msgid "SCRUM LATAM Comunidad Web portal: Uninstall"
 msgstr ""
 
-#: slc_web/vocabularies/__init__.py:13
+#: slc_web/src/slc_web/vocabularies/__init__.py:13
 msgid "Service"
 msgstr ""
 
-#: slc_web/profiles.zcml:30
+#: slc_web/src/slc_web/profiles.zcml:30
 msgid "Uninstall SCRUM LATAM Comunidad Web portal setup."
 msgstr ""
 
-#: slc_web/validators.py:32
+#: slc_web/src/slc_web/validators.py:32
 msgid "is not a valid email address."
 msgstr ""
 
-#: slc_web/validators.py:53
+#: slc_web/src/slc_web/validators.py:53
 msgid "web address must start with http:// or https://"
 msgstr ""

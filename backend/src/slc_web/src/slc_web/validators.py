@@ -1,3 +1,4 @@
+from slc_web import _
 from z3c.form.validator import SimpleFieldValidator
 from zope.interface import Invalid
 
@@ -28,7 +29,7 @@ class isEmail(SimpleFieldValidator):
         prog = re.compile("^" + EMAIL_RE)
         result = prog.match(value)
         if result is None:
-            raise Invalid("is not a valid email address.")
+            raise Invalid(_(u"is not a valid email address."))
 
 
 class isHTTP(SimpleFieldValidator):
@@ -49,7 +50,7 @@ class isHTTP(SimpleFieldValidator):
         """
         super().validate(value)
         if not value.startswith("http://") and not value.startswith("https://"):
-            raise Invalid("web address must start with http:// or https://")
+            raise Invalid(_(u"web address must start with http:// or https://"))
 
 
 class isImage(SimpleFieldValidator):
@@ -103,7 +104,7 @@ class isPhone(SimpleFieldValidator):
             # The value is not required
             for c in value:
                 if c not in allowed_characters:
-                    raise Invalid("Phone number contains bad characters")
+                    raise Invalid(_(u"Phone number contains bad characters"))
 
             if len(value) < 7:
-                raise Invalid("Phone number is too short")
+                raise Invalid(_(u"Phone number is too short"))
