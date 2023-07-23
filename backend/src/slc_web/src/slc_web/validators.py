@@ -29,7 +29,7 @@ class isEmail(SimpleFieldValidator):
         prog = re.compile("^" + EMAIL_RE)
         result = prog.match(value)
         if result is None:
-            raise Invalid(_(u"is not a valid email address."))
+            raise Invalid(_("is not a valid email address."))
 
 
 class isHTTP(SimpleFieldValidator):
@@ -50,7 +50,7 @@ class isHTTP(SimpleFieldValidator):
         """
         super().validate(value)
         if not value.startswith("http://") and not value.startswith("https://"):
-            raise Invalid(_(u"web address must start with http:// or https://"))
+            raise Invalid(_("web address must start with http:// or https://"))
 
 
 class isImage(SimpleFieldValidator):
@@ -104,7 +104,7 @@ class isPhone(SimpleFieldValidator):
             # The value is not required
             for c in value:
                 if c not in allowed_characters:
-                    raise Invalid(_(u"Phone number contains bad characters"))
+                    raise Invalid(_("Phone number contains bad characters"))
 
             if len(value) < 7:
-                raise Invalid(_(u"Phone number is too short"))
+                raise Invalid(_("Phone number is too short"))

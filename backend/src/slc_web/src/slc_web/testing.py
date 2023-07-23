@@ -5,6 +5,7 @@ from plone.app.testing import FunctionalTesting
 from plone.app.testing import IntegrationTesting
 from plone.app.testing import PloneSandboxLayer
 from plone.testing.zope import WSGI_SERVER_FIXTURE
+from slc_web import PACKAGE_NAME
 
 import slc_web
 
@@ -38,8 +39,8 @@ class SLC_WEBLayer(PloneSandboxLayer):
         Args:
             portal (class): Plone portal object
         """
-        applyProfile(portal, "slc_web:default")
-        applyProfile(portal, "slc_web:initial")
+        applyProfile(portal, f"{PACKAGE_NAME}:default")
+        applyProfile(portal, f"{PACKAGE_NAME}:initial")
 
 
 SLC_WEB_FIXTURE = SLC_WEBLayer()
