@@ -93,7 +93,7 @@ class isPhone(SimpleFieldValidator):
 
         allowed_characters = "+- () / 0123456789"
 
-        if value != None:
+        if value is not None:
 
             value = value.strip()
 
