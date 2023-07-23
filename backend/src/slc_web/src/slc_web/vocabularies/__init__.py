@@ -6,9 +6,14 @@ from zope.schema.vocabulary import SimpleVocabulary
 
 
 INDUSTRIES = [
+    ("agriculture", _("Agriculture")),
     ("government", _("Government")),
-    ("ngo", _("NGO")),
+    ("raw_mat", _("Raw materials")),
+    ("man_con", _("Manufacturing and construction")),
+    ("service", _("Service")),
     ("edu", _("Education")),
+    ("inf_ser", _("Information Services")),
+    ("ngo", _("NGO")),
 ]
 
 
