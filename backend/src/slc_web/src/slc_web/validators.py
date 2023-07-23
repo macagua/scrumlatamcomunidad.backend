@@ -99,7 +99,7 @@ class isPhone(SimpleFieldValidator):
 
             if value == "":
                 # Assume empty string = no input
-                return
+                raise Invalid(_("Phone number string is empty"))
 
             # The value is not required
             for c in value:

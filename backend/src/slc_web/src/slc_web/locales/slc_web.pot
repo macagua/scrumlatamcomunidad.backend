@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-23 17:16+0000\n"
+"POT-Creation-Date: 2023-07-23 20:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,16 +25,40 @@ msgstr ""
 msgid "Agriculture"
 msgstr ""
 
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Basic Data"
+msgstr ""
+
 #: slc_web/src/slc_web/profiles/default/types/CommunitySponsor.xml
 msgid "Community Sponsor"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Company"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Contact Data"
 msgstr ""
 
 #: slc_web/src/slc_web/vocabularies/__init__.py:14
 msgid "Education"
 msgstr ""
 
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Email"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Enter a http:// or https:// web address"
+msgstr ""
+
 #: slc_web/src/slc_web/vocabularies/__init__.py:10
 msgid "Government"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Information"
 msgstr ""
 
 #: slc_web/src/slc_web/vocabularies/__init__.py:15
@@ -45,6 +69,10 @@ msgstr ""
 msgid "Initial content for our website."
 msgstr ""
 
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Logo/Photo"
+msgstr ""
+
 #: slc_web/src/slc_web/vocabularies/__init__.py:12
 msgid "Manufacturing and construction"
 msgstr ""
@@ -53,12 +81,28 @@ msgstr ""
 msgid "NGO"
 msgstr ""
 
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Name"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Person"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Phone"
+msgstr ""
+
 #: slc_web/src/slc_web/validators.py:107
 msgid "Phone number contains bad characters"
 msgstr ""
 
 #: slc_web/src/slc_web/validators.py:110
 msgid "Phone number is too short"
+msgstr ""
+
+#: slc_web/src/slc_web/validators.py:102
+msgid "Phone number string is empty"
 msgstr ""
 
 #: slc_web/src/slc_web/profiles.zcml:13
@@ -85,8 +129,48 @@ msgstr ""
 msgid "Service"
 msgstr ""
 
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Basic Data"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Contact Data"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Contact Phone"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Email"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Information"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Logo or Photo"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Name"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Sponsor Type"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Type"
+msgstr ""
+
 #: slc_web/src/slc_web/profiles.zcml:30
 msgid "Uninstall SCRUM LATAM Comunidad Web portal setup."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Web Site"
 msgstr ""
 
 #: slc_web/src/slc_web/validators.py:32
