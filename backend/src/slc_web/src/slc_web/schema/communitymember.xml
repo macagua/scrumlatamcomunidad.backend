@@ -4,181 +4,186 @@
        xmlns:i18n="http://xml.zope.org/namespaces/i18n"
        xmlns:indexer="http://namespaces.plone.org/supermodel/indexer"
        xmlns:security="http://namespaces.plone.org/supermodel/security"
+       i18n:domain="slc_web"
 >
   <schema>
     <fieldset description="Basic data about community member."
-              label="Basic data"
+              label="Basic Data"
               name="basic_data"
+              i18n:attributes="label; description"
     >
       <field indexer:searchable="true"
              name="name"
              type="zope.schema.TextLine"
       >
-        <description>Name of community member.</description>
-        <title>Name</title>
+        <description i18n:translate="">Name of community member.</description>
+        <title i18n:translate="">Name</title>
       </field>
       <field indexer:searchable="true"
              name="last_name"
              type="zope.schema.TextLine"
       >
-        <description>Last name of the comunnity member</description>
-        <title>Last name</title>
+        <description i18n:translate="">Last name of the comunnity member</description>
+        <title i18n:translate="">Last name</title>
       </field>
       <field indexer:searchable="true"
              name="gender"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Choice"
       >
-        <description>Gender of the community member</description>
-        <title>Gender</title>
+        <description i18n:translate="">Gender of the community member</description>
+        <title i18n:translate="">Gender</title>
         <values>
-          <element>Male</element>
-          <element>Female</element>
-          <element>Undefined</element>
+          <element i18n:translate="">Male</element>
+          <element i18n:translate="">Female</element>
+          <element i18n:translate="">Undefined</element>
         </values>
       </field>
       <field indexer:searchable="true"
              name="organization"
              type="zope.schema.TextLine"
       >
-        <description>Organization of the community member</description>
-        <title>Organization</title>
+        <description i18n:translate="">Organization of the community member</description>
+        <title i18n:translate="">Organization</title>
       </field>
       <field indexer:searchable="true"
              name="native_language"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Choice"
       >
-        <description>Native language of the community member.</description>
-        <title>Native language</title>
+        <description i18n:translate="">Native language of the community member.</description>
+        <title i18n:translate="">Native language</title>
         <values>
-          <element>Spanish</element>
-          <element>Portuguese</element>
-          <element>Francese</element>
-          <element>English</element>
+          <element i18n:translate="">Spanish</element>
+          <element i18n:translate="">Portuguese</element>
+          <element i18n:translate="">Francese</element>
+          <element i18n:translate="">English</element>
           <element />
         </values>
       </field>
       <field name="photo"
              type="plone.namedfile.field.NamedBlobImage"
       >
-        <description>Photo community member.</description>
+        <description i18n:translate="">Photo community member.</description>
         <required>False</required>
-        <title>Photo</title>
+        <title i18n:translate="">Photo</title>
       </field>
     </fieldset>
     <fieldset description="Contact data about community member."
               label="Contact"
               name="contact"
+              i18n:attributes="label; description"
     >
       <field indexer:searchable="true"
              name="country"
              type="zope.schema.Choice"
       >
-        <description>Country of the community member</description>
-        <title>Country</title>
+        <description i18n:translate="">Country of the community member</description>
+        <title i18n:translate="">Country</title>
         <values>
-          <element>Canad&#225;</element>
-          <element>EEUU</element>
-          <element>Mexico</element>
-          <element>Belice</element>
-          <element>Costa Rica</element>
-          <element>Nicaragua</element>
-          <element>Colombia</element>
-          <element>Venezuela</element>
-          <element>Panama</element>
-          <element>Per&#250;</element>
-          <element>Chile</element>
-          <element>Argentina</element>
+          <element i18n:translate="">Canad&#225;</element>
+          <element i18n:translate="">EEUU</element>
+          <element i18n:translate="">Mexico</element>
+          <element i18n:translate="">Belice</element>
+          <element i18n:translate="">Costa Rica</element>
+          <element i18n:translate="">Nicaragua</element>
+          <element i18n:translate="">Colombia</element>
+          <element i18n:translate="">Venezuela</element>
+          <element i18n:translate="">Panama</element>
+          <element i18n:translate="">Per&#250;</element>
+          <element i18n:translate="">Chile</element>
+          <element i18n:translate="">Argentina</element>
         </values>
       </field>
       <field name="addres"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.TextLine"
       >
-        <description>Addres of the comunnity member</description>
-        <title>Addres</title>
+        <description i18n:translate="">Addres of the comunnity member</description>
+        <title i18n:translate="">Addres</title>
       </field>
       <field form:validator="slc_web.validators.isEmail"
              name="email"
              security:read-permission="slc_web.communitymember.view"
              type="plone.schema.email.Email"
       >
-        <description>Email of the community member</description>
-        <title>Email</title>
+        <description i18n:translate="">Email of the community member</description>
+        <title i18n:translate="">Email</title>
       </field>
       <field form:validator="slc_web.validators.isPhone"
              name="phone"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.TextLine"
       >
-        <description>Phone of community member</description>
-        <title>Phone</title>
+        <description i18n:translate="">Phone of community member</description>
+        <title i18n:translate="">Phone</title>
       </field>
       <field indexer:searchable="true"
              name="time_zone"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Choice"
       >
-        <description>Time zone of the community member</description>
-        <title>Time zone</title>
+        <description i18n:translate="">Time zone of the community member</description>
+        <title i18n:translate="">Time zone</title>
         <vocabulary>plone.app.vocabularies.Timezones</vocabulary>
       </field>
     </fieldset>
     <fieldset description="Social Networks of the community member"
               label="Social Networks"
               name="social_networks"
+              i18n:attributes="label; description"
     >
       <field form:validator="slc_web.validators.isHTTP"
              indexer:searchable="true"
              name="linkedin"
              type="zope.schema.URI"
       >
-        <description>Linkedin profile.</description>
+        <description i18n:translate="">Linkedin profile.</description>
         <required>False</required>
-        <title>Linkedin</title>
+        <title i18n:translate="">Linkedin</title>
       </field>
       <field form:validator="slc_web.validators.isHTTP"
              name="indico"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.URI"
       >
-        <description>Indico profile.</description>
+        <description i18n:translate="">Indico profile.</description>
         <required>False</required>
-        <title>Indico</title>
+        <title i18n:translate="">Indico</title>
       </field>
       <field form:validator="slc_web.validators.isHTTP"
              name="discord"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.URI"
       >
-        <description>Discord profile.</description>
+        <description i18n:translate="">Discord profile.</description>
         <required>False</required>
-        <title>Discord</title>
+        <title i18n:translate="">Discord</title>
       </field>
     </fieldset>
     <fieldset description="Knowledge of the community member."
               label="Knowledge"
               name="knowledge"
+              i18n:attributes="label; description"
     >
       <field indexer:searchable="true"
              name="skills"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Set"
       >
-        <description>Skills of the community member.&#13;
-Para seleccionar varios elementos presione Ctrl + Click.</description>
-        <title>Skills</title>
+        <description i18n:translate="">Skills of the community member.&#13;
+Select different skills pushing Ctrl + Click.</description>
+        <title i18n:translate="">Skills</title>
         <value_type type="zope.schema.Choice">
           <values>
-            <element>Coach Agile</element>
-            <element>Product Owner</element>
-            <element>SCRUM Master</element>
-            <element>Tester</element>
-            <element>UX Design</element>
-            <element>Developer</element>
-            <element>Other</element>
-            <element>Undefined</element>
+            <element i18n:translate="">Coach Agile</element>
+            <element i18n:translate="">Product Owner</element>
+            <element i18n:translate="">SCRUM Master</element>
+            <element i18n:translate="">Tester</element>
+            <element i18n:translate="">UX Design</element>
+            <element i18n:translate="">Developer</element>
+            <element i18n:translate="">Other</element>
+            <element i18n:translate="">Undefined</element>
           </values>
         </value_type>
       </field>
@@ -187,20 +192,20 @@ Para seleccionar varios elementos presione Ctrl + Click.</description>
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Set"
       >
-        <description>Interest of the community member</description>
+        <description i18n:translate="">Interest of the community member</description>
         <required>False</required>
-        <title>Interest</title>
+        <title i18n:translate="">Interest</title>
         <value_type type="zope.schema.Choice">
           <values>
-            <element>Coach Agile</element>
-            <element>Product Owner</element>
-            <element>SCRUM Master</element>
-            <element>Tester</element>
-            <element>UX Design</element>
-            <element>Developer</element>
-            <element>Collaborate community</element>
-            <element>Other</element>
-            <element>Undefined</element>
+            <element i18n:translate="">Coach Agile</element>
+            <element i18n:translate="">Product Owner</element>
+            <element i18n:translate="">SCRUM Master</element>
+            <element i18n:translate="">Tester</element>
+            <element i18n:translate="">UX Design</element>
+            <element i18n:translate="">Developer</element>
+            <element i18n:translate="">Collaborate community</element>
+            <element i18n:translate="">Other</element>
+            <element i18n:translate="">Undefined</element>
           </values>
         </value_type>
       </field>
@@ -209,9 +214,9 @@ Para seleccionar varios elementos presione Ctrl + Click.</description>
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Set"
       >
-        <description>Other languages that domain the community member.</description>
+        <description i18n:translate="">Other languages that domain the community member.</description>
         <required>False</required>
-        <title>Other languages</title>
+        <title i18n:translate="">Other languages</title>
         <value_type type="zope.schema.Choice">
           <vocabulary>plone.app.vocabularies.AvailableContentLanguages</vocabulary>
         </value_type>
@@ -220,21 +225,22 @@ Para seleccionar varios elementos presione Ctrl + Click.</description>
     <fieldset description="Survey"
               label="Survey"
               name="survey"
+              i18n:attributes="label; description"
     >
       <field name="practices"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Bool"
       >
-        <description>You can do work practices in the world of ability with us.</description>
-        <title>Do you want to do agility work practices?</title>
+        <description i18n:translate="">You can do work practices in the world of ability with us.</description>
+        <title i18n:translate="">Do you want to do agility work practices?</title>
         <form:widget type="z3c.form.browser.radio.RadioFieldWidget" />
       </field>
       <field name="mentories"
              security:read-permission="slc_web.communitymember.view"
              type="zope.schema.Bool"
       >
-        <description>You can mentor your knowledge to members of the community.</description>
-        <title>Do you want to do member mentories?</title>
+        <description i18n:translate="">You can mentor your knowledge to members of the community.</description>
+        <title i18n:translate="">Do you want to do member mentories?</title>
         <form:widget type="z3c.form.browser.radio.RadioFieldWidget" />
       </field>
     </fieldset>
