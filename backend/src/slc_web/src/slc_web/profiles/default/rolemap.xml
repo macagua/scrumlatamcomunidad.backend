@@ -2,6 +2,7 @@
 <rolemap>
   <roles>
     <role name="Community Sponsorship Committee" />
+    <role name="Community Membership Committee" />
   </roles>
   <permissions>
     <permission acquire="True"
@@ -21,6 +22,26 @@
                 name="Community Sponsor: Manage Sponsors"
     >
       <role name="Community Sponsorship Committee" />
+      <role name="Manager" />
+    </permission>
+
+    <permission acquire="True"
+                name="Community Member: Add Community Member"
+    >
+      <role name="Community Membership Committee" />
+      <role name="Manager" />
+      <role name="Site Administrator" />
+    </permission>
+    <permission acquire="True"
+                name="Community Member: View Detail"
+    >
+      <role name="Community Membership Committee" />
+      <role name="Manager" />
+    </permission>
+    <permission acquire="True"
+                name="Community Member: Manage Members"
+    >
+      <role name="Community Membership Committee" />
       <role name="Manager" />
     </permission>
   </permissions>

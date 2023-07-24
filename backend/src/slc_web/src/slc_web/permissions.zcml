@@ -21,6 +21,20 @@
         title="Community Sponsor: Manage Sponsors"
         />
 
+    <!-- Permissions for Community Member content type -->
+    <permission
+        id="slc_web.communitymember.add"
+        title="Community Member: Add Community Member"
+        />
+    <permission
+        id="slc_web.communitymember.view"
+        title="Community Member: View Detail"
+        />
+    <permission
+        id="slc_web.communitymember.manage"
+        title="Community Member: Manage Members"
+        />
+
   </configure>
 
 </configure>

@@ -11,6 +11,6 @@ UML - Diagrama de Clases
 
 ---
 
-.. plantuml:: ./miembro.puml
-    :caption: Miembro
+.. plantuml:: ./communitymember.puml
+    :caption: Community Member
     :align: center
