@@ -44,6 +44,15 @@
           <element i18n:translate="">Person</element>
         </values>
       </field>
+      <field indexer:searchable="true"
+             name="industry"
+             security:read-permission="slc_web.communitysponsor.view"
+             type="zope.schema.Choice"
+      >
+        <description i18n:translate="">Industry sector to which it belongs</description>
+        <title i18n:translate="">Industry</title>
+        <vocabulary>slc_web.vocabulary.industries</vocabulary>
+      </field>
     </fieldset>
     <fieldset description="Sponsor Contact Data"
               label="Contact Data"

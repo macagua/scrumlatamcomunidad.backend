@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-07-24 20:49+0000\n"
+"POT-Creation-Date: 2023-07-26 02:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,6 +181,14 @@ msgstr ""
 
 #: slc_web/src/slc_web/schema/communitymember.xml
 msgid "Indico profile."
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr ""
+
+#: slc_web/src/slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
 msgstr ""
 
 #: slc_web/src/slc_web/schema/communitysponsor.xml

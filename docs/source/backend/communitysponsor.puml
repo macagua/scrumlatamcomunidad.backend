@@ -4,6 +4,7 @@ class CommunitySponsor {
    +information : String
    +logo_photo : File
    +type : String
+   +industry : String
    +website : String
    #email : String
    #phone : Integer
