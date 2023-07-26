@@ -49,6 +49,8 @@ class isHTTP(SimpleFieldValidator):
             Invalid: Show an invalid message
         """
         super().validate(value)
+        if value is None or value.strip() == "":
+            return
         if not value.startswith("http://") and not value.startswith("https://"):
             raise Invalid(_("web address must start with http:// or https://"))
 
