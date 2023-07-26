@@ -31,7 +31,7 @@ class IndustriesVocabularyTest(unittest.TestCase):
             IVocabularyFactory, f"{PACKAGE_NAME}.vocabulary.industries"
         )
         vocabulary = factory(self.portal)
-        self.assertEqual(len(vocabulary), 7)
+        self.assertEqual(len(vocabulary), 8)
 
     def test_vocabulary_industry_exits(self):
         """Check that 'NGO' item is in the vocabulary."""
