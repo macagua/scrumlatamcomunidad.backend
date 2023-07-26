@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rolemap>
   <roles>
-    <role name="Community Sponsorship Committee" />
+    <role name="Sponsorship Committee" />
   </roles>
   <permissions>
     <permission acquire="True"
                 name="Community Sponsor: Add Community Sponsor"
     >
-      <role name="Community Sponsorship Committee" />
+      <role name="Sponsorship Committee" />
       <role name="Manager" />
       <role name="Site Administrator" />
     </permission>
     <permission acquire="True"
                 name="Community Sponsor: View Detail"
     >
-      <role name="Community Sponsorship Committee" />
+      <role name="Sponsorship Committee" />
       <role name="Manager" />
     </permission>
     <permission acquire="True"
                 name="Community Sponsor: Manage Sponsors"
     >
-      <role name="Community Sponsorship Committee" />
+      <role name="Sponsorship Committee" />
       <role name="Manager" />
     </permission>
   </permissions>
