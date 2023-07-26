@@ -194,6 +194,14 @@ msgid "Industry sector to which it belongs"
 msgstr "Sector industrial al que pertenece"
 
 #: slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr "Industria"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
+msgstr "Sector industrial al que pertenece"
+
+#: slc_web/schema/communitysponsor.xml
 msgid "Information"
 msgstr "Información"
 
