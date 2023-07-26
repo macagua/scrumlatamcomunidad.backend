@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: slc_web\n"
-"POT-Creation-Date: 2023-07-23 20:19+0000\n"
-"PO-Revision-Date: 2023-07-23 15:30-0400\n"
+"POT-Creation-Date: 2023-07-26 02:53+0000\n"
+"PO-Revision-Date: 2023-07-25 21:42-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -59,6 +59,14 @@ msgstr "Introduzca una dirección web http:// o https://"
 #: slc_web/vocabularies/__init__.py:10
 msgid "Government"
 msgstr "Gobierno"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry"
+msgstr "Industria"
+
+#: slc_web/schema/communitysponsor.xml
+msgid "Industry sector to which it belongs"
+msgstr "Sector industrial al que pertenece"
 
 #: slc_web/schema/communitysponsor.xml
 msgid "Information"
