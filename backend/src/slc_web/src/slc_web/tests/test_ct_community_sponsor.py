@@ -1,18 +1,16 @@
-"""Content Types tests for this package."""
+"""Community Sponsor Content Type tests for this package."""
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from plone.dexterity.interfaces import IDexterityFTI
-
 from slc_web import ADD_SPONSOR_ROLES
 from slc_web import MANAGE_SPONSOR_ROLES
 from slc_web.testing import SLC_WEB_INTEGRATION_TESTING
-
 from zope.component import queryUtility
 
 import unittest
 
 
-class ContentTypesTest(unittest.TestCase):
+class CommunitySponsorContentTypeTest(unittest.TestCase):
     """The Community Sponsor Content Type Test class
 
     Args:

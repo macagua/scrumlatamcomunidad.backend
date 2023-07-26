@@ -1,4 +1,4 @@
-"""Content Types tests for this package."""
+"""Community Member Content Type tests for this package."""
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from plone.dexterity.interfaces import IDexterityFTI
@@ -8,7 +8,7 @@ from zope.component import queryUtility
 import unittest
 
 
-class ContentTypesTest(unittest.TestCase):
+class CommunityMemberContentTypeTest(unittest.TestCase):
     """The Community Member Content Type Test class
 
     Args:
