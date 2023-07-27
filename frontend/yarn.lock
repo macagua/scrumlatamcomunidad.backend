@@ -2642,6 +2642,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@kitconcept/volto-separator-block@npm:*":
+  version: 3.2.2
+  resolution: "@kitconcept/volto-separator-block@npm:3.2.2"
+  peerDependencies:
+    "@plone/volto": ">=16.0.0"
+  checksum: 39e63754077d46cbecc4e740315b35fb9a66214f09d090dd5b22a415219aab4297d7447cb36de2fba1724db0e4969410f1710db51f7a7ec083b14b945c54cf80
+  languageName: node
+  linkType: hard
+
 "@kitconcept/volto-slider-block@npm:*":
   version: 4.3.0
   resolution: "@kitconcept/volto-slider-block@npm:4.3.0"
@@ -12539,6 +12548,7 @@ __metadata:
     "@kitconcept/volto-blocks-grid": "*"
     "@kitconcept/volto-carousel-block": "*"
     "@kitconcept/volto-heading-block": "*"
+    "@kitconcept/volto-separator-block": "*"
     "@kitconcept/volto-slider-block": "*"
     "@kitconcept/volto-social-blocks": 1.0.0-alpha.4
     "@plone/scripts": ^2.1.5
