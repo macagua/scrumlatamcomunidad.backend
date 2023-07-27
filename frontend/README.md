@@ -12,7 +12,23 @@ Installs and checkouts the `mrs-developer` directives (`make develop`), creates 
 
 #### addons dependencies
 
+There are the following addons dependencies installed:
+
+- [@codesyntax/volto-social-sharing](https://www.npmjs.com/package/@codesyntax/volto-social-sharing).
+
+- [@eeacms/volto-accordion-block](https://www.npmjs.com/package/@eeacms/volto-accordion-block).
+
+- [@eeacms/volto-columns-block](https://www.npmjs.com/package/@eeacms/volto-columns-block).
+
+- [@eeacms/volto-matomo](https://www.npmjs.com/package/@eeacms/volto-matomo).
+
+- [@kitconcept/volto-blocks-grid](https://www.npmjs.com/package/@kitconcept/volto-blocks-grid).
+
 - [@kitconcept/volto-carousel-block](https://www.npmjs.com/package/@kitconcept/volto-carousel-block).
+
+- [@kitconcept/volto-slider-block](https://www.npmjs.com/package/@kitconcept/volto-slider-block).
+
+- [@kitconcept/volto-social-blocks](https://www.npmjs.com/package/@kitconcept/volto-social-blocks).
 
 ### `yarn start`
 
