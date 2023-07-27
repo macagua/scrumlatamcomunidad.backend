@@ -1809,6 +1809,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/countup@npm:*":
+  version: 2.0.4
+  resolution: "@eeacms/countup@npm:2.0.4"
+  dependencies:
+    use-elapsed-time: 3.0.2
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: e3cbaf7913cf5103fa0ef37f159cd325503866040a396cf7a8711649645edc49a94a67288cd26e9693f436d26a4bfe31f6834ed6f6feb7f7d055a867f35f5127
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-accordion-block@npm:*":
   version: 9.1.0
   resolution: "@eeacms/volto-accordion-block@npm:9.1.0"
@@ -1833,6 +1844,15 @@ __metadata:
   dependencies:
     "@datapunt/matomo-tracker-react": 0.3.1
   checksum: 01d8e5ee644510dda9d631417a13c044e4b445364951bd11eccbbfa05b1e5cdb4116d4606853de5fa3a7797af8d2997d85ab09bebc004da9ba8bd35165034d6f
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-statistic-block@npm:*":
+  version: 2.0.0
+  resolution: "@eeacms/volto-statistic-block@npm:2.0.0"
+  dependencies:
+    "@eeacms/countup": "*"
+  checksum: 92abe3f8720e232138a8c211de3f93f897bb20a40f665e613bf69d756c642bb697f55464e4dfadda66d0722d70fdc88e11b013d6d3f2cb13fd0b36a01ea7a14d
   languageName: node
   linkType: hard
 
@@ -12506,6 +12526,7 @@ __metadata:
     "@eeacms/volto-accordion-block": "*"
     "@eeacms/volto-columns-block": 6.3.2
     "@eeacms/volto-matomo": "*"
+    "@eeacms/volto-statistic-block": "*"
     "@kitconcept/volto-blocks-grid": "*"
     "@kitconcept/volto-carousel-block": "*"
     "@kitconcept/volto-slider-block": "*"
@@ -25690,6 +25711,15 @@ __metadata:
   peerDependencies:
     react: ">=16.13"
   checksum: 2b9b6291df3f772f44d259b352e5d998963ccee0db2efeb76bb05525d928064aeeb69bb0dee5a5e428fea7cf3db67c097a770ebd30caa080662b565f6ef02b2e
+  languageName: node
+  linkType: hard
+
+"use-elapsed-time@npm:3.0.2":
+  version: 3.0.2
+  resolution: "use-elapsed-time@npm:3.0.2"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 9ba8ef6d05b8137fd715ace7303edc2fdc412f372f158bfa659926b0cb356654be84664f912d016f99deb2f3951236443feb84b78318755d5984c340dcb418a6
   languageName: node
   linkType: hard
 

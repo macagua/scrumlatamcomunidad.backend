@@ -22,6 +22,8 @@ There are the following addons dependencies installed:
 
 - [@eeacms/volto-matomo](https://www.npmjs.com/package/@eeacms/volto-matomo).
 
+- [@eeacms/volto-statistic-block](https://www.npmjs.com/package/@eeacms/volto-statistic-block).
+
 - [@kitconcept/volto-blocks-grid](https://www.npmjs.com/package/@kitconcept/volto-blocks-grid).
 
 - [@kitconcept/volto-carousel-block](https://www.npmjs.com/package/@kitconcept/volto-carousel-block).
