@@ -29,11 +29,11 @@ DEFAULT_SOCIAL.push(
   //   id: 'pt',
   // },
   {
-  name: 'Linkedin',
-  fa_name: ['fab', 'linkedin'],
-  color: '#0e76a8',
-  sharing_url: 'https://www.linkedin.com/sharing/share-offsite/?url=',
-  id: 'pt',
+    name: 'Linkedin',
+    fa_name: ['fab', 'linkedin'],
+    color: '#0e76a8',
+    sharing_url: 'https://www.linkedin.com/sharing/share-offsite/?url=',
+    id: 'pt',
   },
   {
     name: 'Whatsapp',
@@ -48,7 +48,7 @@ DEFAULT_SOCIAL.push(
     color: '#229ED9',
     sharing_url: 'https://telegram.me/share/url?url=',
     id: 'pt',
-  }
+  },
 );
 
 export default function applyConfig(config) {
