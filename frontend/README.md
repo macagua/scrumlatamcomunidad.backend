@@ -10,6 +10,10 @@ Below is a list of commands you will probably find useful.
 
 Installs and checkouts the `mrs-developer` directives (`make develop`), creates a shortcut to the Volto source code (`omelette` folder), then triggers the install of the frontend environment.
 
+#### addons dependencies
+
+- [@kitconcept/volto-carousel-block](https://www.npmjs.com/package/@kitconcept/volto-carousel-block).
+
 ### `yarn start`
 
 Runs the project in development mode.

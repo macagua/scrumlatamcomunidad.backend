@@ -30,6 +30,7 @@
     "@eeacms/volto-columns-block",
     "@eeacms/volto-matomo",
     "@kitconcept/volto-blocks-grid",
+    "@kitconcept/volto-carousel-block",
     "@kitconcept/volto-slider-block",
     "@kitconcept/volto-social-blocks"
   ],
@@ -147,6 +148,7 @@
     "@eeacms/volto-columns-block": "6.3.2",
     "@eeacms/volto-matomo": "*",
     "@kitconcept/volto-blocks-grid": "*",
+    "@kitconcept/volto-carousel-block": "*",
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
     "@plone/volto": "16.20.4"
