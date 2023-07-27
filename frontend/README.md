@@ -28,6 +28,8 @@ There are the following addons dependencies installed:
 
 - [@kitconcept/volto-carousel-block](https://www.npmjs.com/package/@kitconcept/volto-carousel-block).
 
+- [@kitconcept/volto-heading-block](https://www.npmjs.com/package/@kitconcept/volto-heading-block).
+
 - [@kitconcept/volto-slider-block](https://www.npmjs.com/package/@kitconcept/volto-slider-block).
 
 - [@kitconcept/volto-social-blocks](https://www.npmjs.com/package/@kitconcept/volto-social-blocks).
