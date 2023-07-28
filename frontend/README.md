@@ -36,6 +36,8 @@ There are the following addons dependencies installed:
 
 - [@kitconcept/volto-social-blocks](https://www.npmjs.com/package/@kitconcept/volto-social-blocks).
 
+- [@mbarde/volto-fullcalendar-block](https://www.npmjs.com/package/@mbarde/volto-fullcalendar-block).
+
 ### `yarn start`
 
 Runs the project in development mode.

@@ -35,7 +35,8 @@
     "@kitconcept/volto-heading-block",
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-slider-block",
-    "@kitconcept/volto-social-blocks"
+    "@kitconcept/volto-social-blocks",
+    "@mbarde/volto-fullcalendar-block"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -157,6 +158,7 @@
     "@kitconcept/volto-separator-block": "*",
     "@kitconcept/volto-slider-block": "*",
     "@kitconcept/volto-social-blocks": "1.0.0-alpha.4",
+    "@mbarde/volto-fullcalendar-block": "*",
     "@plone/volto": "16.20.4"
   },
   "devDependencies": {
