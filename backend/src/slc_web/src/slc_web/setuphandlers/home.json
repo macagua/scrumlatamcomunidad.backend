@@ -1,0 +1,49 @@
+{
+  "blocks": {
+    "1006adfe-d9b1-4e70-9b32-a9158310723d": {
+      "@type": "slate",
+      "plaintext": " Plone es un sistema de gestión de contenido escrito en lenguaje Python y actualmente se encuentra en la versión 6.0.4.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Plone"
+                }
+              ],
+              "type": "b"
+            },
+            {
+              "text": " es un sistema de gestión de contenido escrito en lenguaje "
+            },
+            {
+              "children": [
+                {
+                  "text": "Python"
+                }
+              ],
+              "data": {
+                "url": "https://python.org"
+              },
+              "type": "link"
+            },
+            {
+              "text": " y actualmente se encuentra en la versión 6.0.4."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1006adfe-d9b1-4e70-9b32-a9158310723d"
+    ]
+  },
+  "title": "SCRUM LATAM Comunidad"
+}

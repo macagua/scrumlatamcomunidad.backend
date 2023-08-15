@@ -1,6 +1,6 @@
 ## Documentation
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+A training on how to create your own website using Volto is available as part of the Plone training at [https://2022.training.plone.org/volto/index.html](https://2022.training.plone.org/volto/index.html).
 
 ## Quick Start
 
@@ -9,6 +9,34 @@ Below is a list of commands you will probably find useful.
 ### `make install`
 
 Installs and checkouts the `mrs-developer` directives (`make develop`), creates a shortcut to the Volto source code (`omelette` folder), then triggers the install of the frontend environment.
+
+#### addons dependencies
+
+There are the following addons dependencies installed:
+
+- [@codesyntax/volto-social-sharing](https://www.npmjs.com/package/@codesyntax/volto-social-sharing).
+
+- [@eeacms/volto-accordion-block](https://www.npmjs.com/package/@eeacms/volto-accordion-block).
+
+- [@eeacms/volto-columns-block](https://www.npmjs.com/package/@eeacms/volto-columns-block).
+
+- [@eeacms/volto-matomo](https://www.npmjs.com/package/@eeacms/volto-matomo).
+
+- [@eeacms/volto-statistic-block](https://www.npmjs.com/package/@eeacms/volto-statistic-block).
+
+- [@kitconcept/volto-blocks-grid](https://www.npmjs.com/package/@kitconcept/volto-blocks-grid).
+
+- [@kitconcept/volto-carousel-block](https://www.npmjs.com/package/@kitconcept/volto-carousel-block).
+
+- [@kitconcept/volto-heading-block](https://www.npmjs.com/package/@kitconcept/volto-heading-block).
+
+- [@kitconcept/volto-separator-block](https://www.npmjs.com/package/@kitconcept/volto-separator-block).
+
+- [@kitconcept/volto-slider-block](https://www.npmjs.com/package/@kitconcept/volto-slider-block).
+
+- [@kitconcept/volto-social-blocks](https://www.npmjs.com/package/@kitconcept/volto-social-blocks).
+
+- [@mbarde/volto-fullcalendar-block](https://www.npmjs.com/package/@mbarde/volto-fullcalendar-block).
 
 ### `yarn start`
 
@@ -61,7 +89,7 @@ yarn add -W mrs-developer
 
 ## Acceptance tests
 
-In order to run localy (while developing) the project acceptance tests (Cypress), there are some `Makefile` commands in place (in the repo root). Run them in order:
+In order to run locally (while developing) the project acceptance tests (Cypress), there are some `Makefile` commands in place (in the repo root). Run them in order:
 
 `start-test-acceptance-server`: Start server fixture in docker (previous build required)
 

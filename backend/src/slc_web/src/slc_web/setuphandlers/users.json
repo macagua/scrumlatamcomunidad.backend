@@ -1,0 +1,20 @@
+{
+  "portal": [
+    {
+      "email": "scrums.latam@gmail.com",
+      "properties": {
+        "fullname": "SCRUM LATAM Comunidad",
+        "location": "Colombia"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member",
+        "Sponsorship Committee"
+      ],
+      "username": "scrumlatamcomunidad"
+    }
+  ],
+    "team": [
+  ]
+}
